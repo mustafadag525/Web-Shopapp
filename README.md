@@ -4,7 +4,7 @@
 
 Uygulama çok geniş kapsamlı bir E-Ticaret uygulamasıdır. Kullanıcılar siteye girerek Anasayfadaki ürünleri görebilir, ürün detaylarına gidebilir veya kategori menüsünden ilgili kategorilerdeki ürünlere ulaşabilir. Bunlar dışında siteye kayıt olabilir, giriş yapabilir hatta şifresini unutursa **"Şifremi Unuttum"** bölümünden şifresini değiştirebilir.
 
-Bu projeyi geliştirirken benim en çok zamanımı alan kısım **Admin Paneli** kısmıdır. Sadece Admin panelini kodlamam yaklaşık 1 ay sürdü. Admin Paneli kısmında admin rolüne sahip kullanıcı Ürün, Kategori, Kullanıcı ve Rol kısımlarına veri ekleme, silme, güncelleme gibi işlemleri rahatlıkla yapabilir. Uygulamanın nasıl bir yazılım mimarisi ile geliştirildiği ve nasıl kullanılacağı aşağıda verilmiştir.
+
 
 ## Front-End
 
