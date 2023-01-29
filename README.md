@@ -1,4 +1,3 @@
-
 # Asp.Net Core ile Full Stack E-Ticaret Uygulaması
 
 ## Uygulamaya Genel Bakış
@@ -9,7 +8,7 @@ Bu projeyi geliştirirken benim en çok zamanımı alan kısım **Admin Paneli**
 
 ## Front-End
 
-Uygulamanın Front-End kısmı **HTML, CSS, JavaScript, jQuery** ve **Bootstrap 5** yazılım dilleri ile geliştirildi.
+Uygulamanın Front-End kısmı **HTML, CSS, JavaScript, jQuery** yazılım dilleri ile geliştirildi.
 
 ## Back-End
 
@@ -43,8 +42,3 @@ Projeyi sıfırdan çalıştırmak için ilgili dosyaları indirip açtıktan so
 
 Ben bu bağlantıyı **MsSql** veritabanı ile yaptım, eğer sizin bilgisayarınızda **MsSql**  veritabanı yoksa uygulama veritabanına bağlanamayacak ve hata verecektir. Eğer uygulamayı başka bir veritabanında çalıştırmak istiyorsanız (MySql gibi) **shopapp.webui** ve **shopapp.data** katmanlarındaki **Migrations** klasörünü silip yeni bir Migration oluşturmanız gerekir, tabii bunu yapabilmeniz için de **Asp.Net Core** bilgisine sahip olmanız gerekmektedir.
 
-## Mail Gönderimi
-
-Mail gönderme bağlantısı **shopapp.webui > appsettings.json > EmailSender** sekmesi altında yer alıyor. Ben bu bağlantıyı varsayılan olarak Microsofta ait ücretsiz mail gönderme servisi ile ilişkilendirdim. Sizde bağlantı ayarlarını düzenleyip değiştirebilirsiniz, hatta uygulamayı yayınladığınızda hosting üzerinde bulunan Mail bilgilerini girerek **Web Mail** üzerinden kullanıcılara mail gönderebilirsiniz. Tabii bu servisi kullanabilmek için **Host, Port** ve **EnableSsl** dışında Mail gönderilecek Email adresi ile Mail'in şifresini yamanız gerekir, bu bilgiler yazılmadıkça uygulamadaki Mail gönderme servisleri çalışmayacaktır.
-
-![Resim](https://r.resimlink.com/oxzm-jUedh.png)
